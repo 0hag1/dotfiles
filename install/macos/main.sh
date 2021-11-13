@@ -20,6 +20,8 @@ main() {
 
     bash "${MACOS_DIR}"/pyenv_requirements.sh
     bash "${MACOS_DIR}"/rbenv_requirements.sh
+
+	bash "${MACOS_DIR}"/awscli.sh
 }
 
 main

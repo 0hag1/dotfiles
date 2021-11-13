@@ -16,6 +16,7 @@ source-safe "${HOME}/.zsh/pyenv.sh"
 source-safe "${HOME}/.zsh/rbenv.sh"
 source-safe "${HOME}/.zsh/goenv.sh"
 source-safe "${HOME}/.zsh/nodenv.sh"
+source-safe "${HOME}/.zsh/tfenv.sh"
 
 #
 # aliases
