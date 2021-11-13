@@ -30,12 +30,6 @@ source-safe "${HOME}/.zsh/alias.sh"
 source-safe "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 #
-# powerlevel9k
-#
-
-source-safe "${HOME}/.zsh/powerlevel9k.sh"
-
-#
 # secrets
 #
 
@@ -65,4 +59,6 @@ fi
 # Auto load some functions
 #
 
-autoload -Uz dev
+autoload -Uz promptinit
+promptinit
+prompt pure

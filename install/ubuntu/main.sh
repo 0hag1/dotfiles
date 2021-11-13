@@ -15,15 +15,10 @@ main() {
     bash "${UBUNTU_DIR}"/misc.sh
 
     bash "${UBUNTU_DIR}"/zsh.sh
-    bash "${UBUNTU_DIR}"/emacs.sh
     bash "${UBUNTU_DIR}"/tmux.sh
-    bash "${UBUNTU_DIR}"/ghq.sh
 
     bash "${UBUNTU_DIR}"/pyenv_requirements.sh
     bash "${UBUNTU_DIR}"/rbenv_requirements.sh
-
-    bash "${UBUNTU_DIR}"/spacemacs_requirements.sh
-    bash "${UBUNTU_DIR}"/powerlevel9k_requirements.sh
 }
 
 main
